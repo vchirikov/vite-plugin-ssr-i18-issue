@@ -1,0 +1,1 @@
+import{j as e,F as o,a as r}from"../chunk-8daf3ee0.js";import{L as n}from"../chunk-b524e103.js";import"../chunk-58df3efb.js";function l(){return e(o,{children:[r("h1",{children:r(n,{children:"Hello"})}),e("p",{children:[r(n,{children:"Another page"}),"."]})]})}export{l as Page};

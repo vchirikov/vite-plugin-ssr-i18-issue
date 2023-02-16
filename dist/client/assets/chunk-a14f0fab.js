@@ -1,0 +1,1 @@
+import{u as s,a as e}from"./chunk-8daf3ee0.js";import{l as i}from"./chunk-58df3efb.js";function m({href:a,locale:t,...o}){const n=s();return t=t||n.locale,t!==i&&(a="/"+t+a),e("a",{href:a,...o})}export{m as L};

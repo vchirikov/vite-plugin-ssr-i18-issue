@@ -1,0 +1,106 @@
+{
+  "_chunk-23b8dcd7.js": {
+    "file": "assets/chunk-23b8dcd7.js"
+  },
+  "_chunk-58df3efb.js": {
+    "file": "assets/chunk-58df3efb.js"
+  },
+  "_chunk-8daf3ee0.js": {
+    "file": "assets/chunk-8daf3ee0.js"
+  },
+  "_chunk-a14f0fab.js": {
+    "file": "assets/chunk-a14f0fab.js",
+    "imports": [
+      "_chunk-8daf3ee0.js",
+      "_chunk-58df3efb.js"
+    ]
+  },
+  "_chunk-b524e103.js": {
+    "file": "assets/chunk-b524e103.js",
+    "imports": [
+      "_chunk-8daf3ee0.js",
+      "_chunk-58df3efb.js"
+    ]
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "dynamicImports": [
+      "pages/about.page.jsx",
+      "pages/index.page.jsx",
+      "pages/movies/index.page.jsx",
+      "renderer/_default.page.client.jsx"
+    ],
+    "file": "assets/entry-server-routing.85cb521d.js",
+    "imports": [
+      "_chunk-23b8dcd7.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "dynamicImports": [
+      "pages/about.page.jsx",
+      "pages/index.page.jsx",
+      "pages/movies/index.page.jsx",
+      "renderer/_default.page.client.jsx"
+    ],
+    "file": "assets/entry-client-routing.a6b57c83.js",
+    "imports": [
+      "_chunk-23b8dcd7.js",
+      "_chunk-58df3efb.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+  },
+  "pages/about.page.jsx": {
+    "file": "assets/pages/about.page.b9549263.js",
+    "imports": [
+      "_chunk-8daf3ee0.js",
+      "_chunk-b524e103.js",
+      "_chunk-58df3efb.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/about.page.jsx"
+  },
+  "pages/index.page.jsx": {
+    "file": "assets/pages/index.page.60153e7f.js",
+    "imports": [
+      "_chunk-8daf3ee0.js",
+      "_chunk-58df3efb.js",
+      "_chunk-a14f0fab.js",
+      "_chunk-b524e103.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/index.page.jsx"
+  },
+  "pages/movies/index.page.jsx": {
+    "file": "assets/pages/movies/index.page.b4a33d5f.js",
+    "imports": [
+      "_chunk-8daf3ee0.js",
+      "_chunk-b524e103.js",
+      "_chunk-58df3efb.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/movies/index.page.jsx"
+  },
+  "renderer/_default.page.client.css": {
+    "file": "assets/_default.page.client.dad88554.css",
+    "src": "renderer/_default.page.client.css"
+  },
+  "renderer/_default.page.client.jsx": {
+    "css": [
+      "assets/_default.page.client.dad88554.css"
+    ],
+    "file": "assets/renderer/_default.page.client.f0d4e891.js",
+    "imports": [
+      "_chunk-8daf3ee0.js",
+      "_chunk-a14f0fab.js",
+      "_chunk-58df3efb.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_default.page.client.jsx"
+  }
+}
