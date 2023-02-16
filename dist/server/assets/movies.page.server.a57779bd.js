@@ -1,6 +1,15 @@
 import fetch from "node-fetch";
 import { a as locales } from "../pageFiles.mjs";
 async function onBeforeRender(pageContext) {
+  var _a;
+  console.log("onBeforeRender", JSON.stringify({
+    urlOriginal: pageContext.urlOriginal,
+    _urlPristine: pageContext._urlPristine,
+    locale: pageContext.locale,
+    firstMovie: ((_a = pageContext.pageProps) == null ? void 0 : _a.movies) ? pageContext.pageProps.movies[0] : "undefined",
+    _pageContextAlreadyProvidedByPrerenderHook: pageContext["_pageContextAlreadyProvidedByPrerenderHook"] ?? "undefined",
+    _prerenderHookFile: pageContext["_prerenderHookFile"] ?? "undefined"
+  }, null, 2));
   const movies = await getMovies(pageContext.locale);
   const pageProps = { movies };
   return { pageContext: { pageProps } };
@@ -27,7 +36,8 @@ const prerender = async () => {
   const promises = locales.map(async (locale) => {
     const movies = await getMovies(locale);
     return {
-      url: `/movies/`,
+      // NOTE THAT HERE MUST NOT BE SLASH ON THE END
+      url: "/movies",
       pageContext: {
         locale,
         pageProps: {

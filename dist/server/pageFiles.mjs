@@ -76,7 +76,7 @@ pageFilesLazy[".page"] = pageFilesLazyIsomorph;
 const pageFilesExportNamesEagerIsomorph1 = /* @__PURE__ */ Object.assign({ "/pages/about.page.jsx": __vite_glob_1_0, "/pages/index.page.jsx": __vite_glob_1_1, "/pages/movies/index.page.jsx": __vite_glob_1_2 });
 const pageFilesExportNamesEagerIsomorph = { ...pageFilesExportNamesEagerIsomorph1 };
 pageFilesExportNamesEager[".page"] = pageFilesExportNamesEagerIsomorph;
-const pageFilesLazyServer1 = /* @__PURE__ */ Object.assign({ "/pages/movies/index.page.server.js": () => import("./assets/movies.page.server.e38d9cf6.js"), "/renderer/_default.page.server.jsx": () => import("./assets/_default.page.server.12b6e309.js") });
+const pageFilesLazyServer1 = /* @__PURE__ */ Object.assign({ "/pages/movies/index.page.server.js": () => import("./assets/movies.page.server.a57779bd.js"), "/renderer/_default.page.server.jsx": () => import("./assets/_default.page.server.12b6e309.js") });
 const pageFilesLazyServer = { ...pageFilesLazyServer1 };
 pageFilesLazy[".page.server"] = pageFilesLazyServer;
 const pageFilesExportNamesEagerServer1 = /* @__PURE__ */ Object.assign({ "/pages/movies/index.page.server.js": __vite_glob_3_0, "/renderer/_default.page.server.jsx": __vite_glob_3_1 });
