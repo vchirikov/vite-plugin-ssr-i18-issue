@@ -1,8 +1,8 @@
 import { j as jsxs, F as Fragment, a as jsx } from "./chunk-14afb3af.js";
 import "react";
-import { L as LocaleText } from "./chunk-bedb5773.js";
+import { L as LocaleText } from "./chunk-1ce2a1ab.js";
 import "react/jsx-runtime";
-import "../pageFiles.mjs";
+import "../pageFiles.js";
 function Page(pageProps) {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
     /* @__PURE__ */ jsxs("h1", { children: [

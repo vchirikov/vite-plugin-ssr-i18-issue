@@ -1,6 +1,6 @@
 import { u as usePageContext, a as jsx, F as Fragment } from "./chunk-14afb3af.js";
 import "react";
-import { l as localeDefault } from "../pageFiles.mjs";
+import { l as localeDefault } from "../pageFiles.js";
 const translations = {
   Hello: {
     "de-DE": "Hallo",

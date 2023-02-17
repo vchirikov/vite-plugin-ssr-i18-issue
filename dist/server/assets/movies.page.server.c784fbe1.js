@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { a as locales } from "../pageFiles.mjs";
+import { a as locales } from "../pageFiles.js";
 async function onBeforeRender(pageContext) {
   var _a;
   console.log("onBeforeRender", JSON.stringify({
@@ -36,7 +36,7 @@ const prerender = async () => {
   const promises = locales.map(async (locale) => {
     const movies = await getMovies(locale);
     return {
-      // NOTE THAT HERE MUST NOT BE SLASH ON THE END
+      // NOTE THAT HERE MUST NOT BE SLASH ON THE END OR onBeforeRender will be called on build
       url: "/movies",
       pageContext: {
         locale,

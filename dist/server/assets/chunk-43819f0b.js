@@ -1,6 +1,6 @@
 import { u as usePageContext, a as jsx } from "./chunk-14afb3af.js";
 import "react";
-import { l as localeDefault } from "../pageFiles.mjs";
+import { l as localeDefault } from "../pageFiles.js";
 function Link({ href, locale, ...props }) {
   const pageContext = usePageContext();
   locale = locale || pageContext.locale;

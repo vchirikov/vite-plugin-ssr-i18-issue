@@ -1,8 +1,8 @@
 import { j as jsxs, F as Fragment, a as jsx } from "./chunk-14afb3af.js";
 import { useState } from "react";
-import { a as locales } from "../pageFiles.mjs";
-import { L as Link } from "./chunk-a126d9b2.js";
-import { L as LocaleText } from "./chunk-bedb5773.js";
+import { a as locales } from "../pageFiles.js";
+import { L as Link } from "./chunk-43819f0b.js";
+import { L as LocaleText } from "./chunk-1ce2a1ab.js";
 import "react/jsx-runtime";
 function Page() {
   return /* @__PURE__ */ jsxs(Fragment, { children: [
