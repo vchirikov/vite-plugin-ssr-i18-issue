@@ -1,7 +1,7 @@
 export { translate }
 
-import { translations } from './translations'
-import { localeDefault } from './locales'
+import { translations } from './translations.js'
+import { localeDefault } from './locales.js'
 
 function translate(text, locale) {
   if (locale === localeDefault) {

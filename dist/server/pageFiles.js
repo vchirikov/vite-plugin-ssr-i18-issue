@@ -70,13 +70,16 @@ const pageFilesExportNamesEager = {};
 const pageFilesList = [];
 const neverLoaded = {};
 const isGeneratedFile = true;
+const pageConfigs = [];
+const pageConfigGlobal = {};
+const plusFilesGlob = null;
 const pageFilesLazyIsomorph1 = /* @__PURE__ */ Object.assign({ "/pages/about.page.jsx": () => import("./assets/about.page.4ee95364.js"), "/pages/index.page.jsx": () => import("./assets/index.page.050519ae.js"), "/pages/movies/index.page.jsx": () => import("./assets/movies.page.29da790e.js") });
 const pageFilesLazyIsomorph = { ...pageFilesLazyIsomorph1 };
 pageFilesLazy[".page"] = pageFilesLazyIsomorph;
 const pageFilesExportNamesEagerIsomorph1 = /* @__PURE__ */ Object.assign({ "/pages/about.page.jsx": __vite_glob_1_0, "/pages/index.page.jsx": __vite_glob_1_1, "/pages/movies/index.page.jsx": __vite_glob_1_2 });
 const pageFilesExportNamesEagerIsomorph = { ...pageFilesExportNamesEagerIsomorph1 };
 pageFilesExportNamesEager[".page"] = pageFilesExportNamesEagerIsomorph;
-const pageFilesLazyServer1 = /* @__PURE__ */ Object.assign({ "/pages/movies/index.page.server.js": () => import("./assets/movies.page.server.c784fbe1.js"), "/renderer/_default.page.server.jsx": () => import("./assets/_default.page.server.5fe1930b.js") });
+const pageFilesLazyServer1 = /* @__PURE__ */ Object.assign({ "/pages/movies/index.page.server.js": () => import("./assets/movies.page.server.c784fbe1.js"), "/renderer/_default.page.server.jsx": () => import("./assets/_default.page.server.30099ee0.js") });
 const pageFilesLazyServer = { ...pageFilesLazyServer1 };
 pageFilesLazy[".page.server"] = pageFilesLazyServer;
 const pageFilesExportNamesEagerServer1 = /* @__PURE__ */ Object.assign({ "/pages/movies/index.page.server.js": __vite_glob_3_0, "/renderer/_default.page.server.jsx": __vite_glob_3_1 });
@@ -93,9 +96,12 @@ export {
   isGeneratedFile,
   localeDefault as l,
   neverLoaded,
+  pageConfigGlobal,
+  pageConfigs,
   pageFilesEager,
   pageFilesExportNamesEager,
   pageFilesExportNamesLazy,
   pageFilesLazy,
-  pageFilesList
+  pageFilesList,
+  plusFilesGlob
 };

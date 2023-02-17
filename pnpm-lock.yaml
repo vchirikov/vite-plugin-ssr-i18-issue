@@ -1,19 +1,19 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@vchirikov/vite-plugin-ssr': 0.4.85
   '@vitejs/plugin-react': ^3.0.0
   node-fetch: ^3.3.0
   react: ^18.1.0
   react-dom: ^18.1.0
   vite: ^4.0.3
-  vite-plugin-ssr: 0.4.82
 
 dependencies:
+  '@vchirikov/vite-plugin-ssr': 0.4.85_vite@4.1.1
   '@vitejs/plugin-react': 3.1.0_vite@4.1.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   vite: 4.1.1
-  vite-plugin-ssr: 0.4.82_vite@4.1.1
 
 devDependencies:
   node-fetch: 3.3.0
@@ -255,8 +255,8 @@ packages:
     resolution: {integrity: sha512-IxlOMD5gOM0WfFGdeR98jHKiC82Ad1tUnSjvLS5jnRkfMEKBI+YzHA32Umw8W3Ccp5N4fNEX229BW6RaRpxRWQ==}
     dev: false
 
-  /@brillout/vite-plugin-import-build/0.2.5:
-    resolution: {integrity: sha512-X8Q8EfOgeWWNxT8b0OnGh7TpAvEf21Ik/fumkelabUC7VH30s/mv3rTZQZG3kKBh7EucvdQKkoWJK4qEzNY/uA==}
+  /@brillout/vite-plugin-import-build/0.2.7:
+    resolution: {integrity: sha512-UGqwRzrVEaY28EITklP7hvReKD8I7U+4H42E3PiMIV9fZY6Dnq5knkGKIZgdVvBZ1SN9bFXTXy6Qu7PnBNBfQQ==}
     dependencies:
       '@brillout/import': 0.2.2
     dev: false
@@ -520,6 +520,25 @@ packages:
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
+    dev: false
+
+  /@vchirikov/vite-plugin-ssr/0.4.85_vite@4.1.1:
+    resolution: {integrity: sha512-5uCm7MgZ6LHDlE0cqEPwPj6IWTAUijaUMLqwOI6eO2Zgcfz+hAmhoJgelhBQ3loGbtrzeMB+gFlqClI6DeKbng==, tarball: download/@vchirikov/vite-plugin-ssr/0.4.85/a14160f551589d2078153b10fd13f4ed27697e90}
+    engines: {node: '>=12.19.0'}
+    hasBin: true
+    peerDependencies:
+      react-streaming: '>=0.3.5'
+      vite: '>=3.0.0'
+    dependencies:
+      '@brillout/import': 0.2.2
+      '@brillout/json-serializer': 0.5.3
+      '@brillout/vite-plugin-import-build': 0.2.7
+      cac: 6.7.14
+      es-module-lexer: 0.10.5
+      fast-glob: 3.2.12
+      picocolors: 1.0.0
+      sirv: 2.0.2
+      vite: 4.1.1
     dev: false
 
   /@vitejs/plugin-react/3.1.0_vite@4.1.1:
@@ -984,28 +1003,6 @@ packages:
       browserslist: 4.21.5
       escalade: 3.1.1
       picocolors: 1.0.0
-    dev: false
-
-  /vite-plugin-ssr/0.4.82_vite@4.1.1:
-    resolution: {integrity: sha512-STvYzi4zl24WvCdrwRdKE56xGxiLIU+iSwhU9fY3a93VRHgGbeRJCxi7SImkjjHSUiJTsg6vIQ/bpVPL+Fn0QQ==}
-    engines: {node: '>=12.19.0'}
-    hasBin: true
-    peerDependencies:
-      react-streaming: '>=0.3.5'
-      vite: '>=3.0.0'
-    peerDependenciesMeta:
-      react-streaming:
-        optional: true
-    dependencies:
-      '@brillout/import': 0.2.2
-      '@brillout/json-serializer': 0.5.3
-      '@brillout/vite-plugin-import-build': 0.2.5
-      cac: 6.7.14
-      es-module-lexer: 0.10.5
-      fast-glob: 3.2.12
-      picocolors: 1.0.0
-      sirv: 2.0.2
-      vite: 4.1.1
     dev: false
 
   /vite/4.1.1:

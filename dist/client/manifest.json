@@ -1,7 +1,4 @@
 {
-  "_chunk-23b8dcd7.js": {
-    "file": "assets/chunk-23b8dcd7.js"
-  },
   "_chunk-58df3efb.js": {
     "file": "assets/chunk-58df3efb.js"
   },
@@ -22,34 +19,37 @@
       "_chunk-58df3efb.js"
     ]
   },
-  "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+  "_chunk-e82e060b.js": {
+    "file": "assets/chunk-e82e060b.js"
+  },
+  "node_modules/.pnpm/@vchirikov+vite-plugin-ssr@0.4.85_vite@4.1.1/node_modules/@vchirikov/vite-plugin-ssr/dist/esm/client/entry.js": {
     "dynamicImports": [
       "pages/about.page.jsx",
       "pages/index.page.jsx",
       "pages/movies/index.page.jsx",
       "renderer/_default.page.client.jsx"
     ],
-    "file": "assets/entry-server-routing.85cb521d.js",
+    "file": "assets/entry-server-routing.d17a0d27.js",
     "imports": [
-      "_chunk-23b8dcd7.js"
+      "_chunk-e82e060b.js"
     ],
     "isEntry": true,
-    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+    "src": "node_modules/.pnpm/@vchirikov+vite-plugin-ssr@0.4.85_vite@4.1.1/node_modules/@vchirikov/vite-plugin-ssr/dist/esm/client/entry.js"
   },
-  "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+  "node_modules/.pnpm/@vchirikov+vite-plugin-ssr@0.4.85_vite@4.1.1/node_modules/@vchirikov/vite-plugin-ssr/dist/esm/client/router/entry.js": {
     "dynamicImports": [
       "pages/about.page.jsx",
       "pages/index.page.jsx",
       "pages/movies/index.page.jsx",
       "renderer/_default.page.client.jsx"
     ],
-    "file": "assets/entry-client-routing.a6b57c83.js",
+    "file": "assets/entry-client-routing.0615e417.js",
     "imports": [
-      "_chunk-23b8dcd7.js",
+      "_chunk-e82e060b.js",
       "_chunk-58df3efb.js"
     ],
     "isEntry": true,
-    "src": "node_modules/.pnpm/vite-plugin-ssr@0.4.82_vite@4.1.1/node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+    "src": "node_modules/.pnpm/@vchirikov+vite-plugin-ssr@0.4.85_vite@4.1.1/node_modules/@vchirikov/vite-plugin-ssr/dist/esm/client/router/entry.js"
   },
   "pages/about.page.jsx": {
     "file": "assets/pages/about.page.b9549263.js",

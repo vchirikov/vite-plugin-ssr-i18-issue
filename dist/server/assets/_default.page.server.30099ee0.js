@@ -1,7 +1,7 @@
 import { a as jsx, P as PageContextProvider, j as jsxs } from "./chunk-14afb3af.js";
 import ReactDOMServer from "react-dom/server";
 import React from "react";
-import { escapeInject, dangerouslySkipEscape } from "vite-plugin-ssr";
+import { escapeInject, dangerouslySkipEscape } from "@vchirikov/vite-plugin-ssr";
 import { L as Link } from "./chunk-43819f0b.js";
 import { l as localeDefault, a as locales } from "../pageFiles.js";
 import "react/jsx-runtime";

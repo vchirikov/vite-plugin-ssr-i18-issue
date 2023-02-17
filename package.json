@@ -10,7 +10,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "vite": "^4.0.3",
-    "vite-plugin-ssr": "0.4.82"
+    "@vchirikov/vite-plugin-ssr": "0.4.85"
   },
   "devDependencies": {
     "node-fetch": "^3.3.0"

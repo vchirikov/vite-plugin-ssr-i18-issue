@@ -4,7 +4,7 @@ export { onBeforePrerender }
 
 import ReactDOMServer from 'react-dom/server'
 import React from 'react'
-import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr'
+import { escapeInject, dangerouslySkipEscape } from '@vchirikov/vite-plugin-ssr'
 import { PageShell } from './PageShell'
 import { localeDefault, locales } from '../locales'
 
